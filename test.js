@@ -3,10 +3,6 @@ import resolveExif, {getImageFromUrl} from "./exif";
 import exif from "exif-js";
 
 
-function verifyImage() {
-
-}
-
 describe("resolveExif", function() {
   it("can load an html image", function(done) {
     let image = new Image();
